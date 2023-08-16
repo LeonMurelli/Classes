@@ -3,12 +3,12 @@ import { IContainerProps } from "../../../@types/menu";
 
 export const Container = styled.div`
   width:100%;
-  height: 100vh;
+  min-height: 100vh;
   position: absolute;
   z-index: -1;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
 `;
 
@@ -19,6 +19,7 @@ export const ContentContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 100px;
 `;
 
 export const ImageContainer = styled.div`

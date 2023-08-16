@@ -19,10 +19,13 @@ export const SlideI = () => {
   const [ expand2, setExpand2 ] = useState(false);
 
   const handleExpand1 = () => {
-    setExpand1(!expand1)
+    setExpand1(!expand1)    
+    setExpand2(false)
+
   }
   const handleExpand2 = () => {
     setExpand2(!expand2)
+    setExpand1(false)
   }
 
   return(

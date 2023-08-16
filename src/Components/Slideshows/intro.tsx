@@ -6,6 +6,7 @@ const Intro = () => {
   return(
     <Container className="IntroContainer">
       <h1>Apresentação</h1>
+      <h2>Leon Murelli Silveira</h2>
       <ContentContainer>
         <ImageContainer>
           <Image alt="UCB" src={UCB} />
