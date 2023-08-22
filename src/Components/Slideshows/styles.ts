@@ -2,12 +2,14 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   width:100%;
+  max-width: 100vw;
   height: 100vh;
   position: absolute;
-  z-index: -1;
+  z-index: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: rgba(255, 255, 255, 0.5);
   .IntroContainer{
     flex-direction: column;
   };
@@ -53,7 +55,7 @@ export const ButtonIcon = styled.img`
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  opacity: 0.05;
+  opacity: 0.15;
   
   ${NextButton}:hover & {
     opacity: 0.6;
@@ -72,6 +74,7 @@ export const ContentContainer = styled.div`
   justify-content: center;
   align-items: center;
   margin-left: 350px;
+  margin-right: 50px;
 `;
 
 export const ImageContainer = styled.div`
@@ -97,5 +100,6 @@ export const TextContainer = styled.div`
   align-items: left;
   font-size: 20px;
   padding-left: 20px;
+  margin-right: 80px;
   background-color: aliceblue;
 `;

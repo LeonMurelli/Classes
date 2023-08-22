@@ -14,7 +14,7 @@ import {
 import ChildImage from "../../../Assets/child_labor.jpeg"
 import { useState } from "react";
 
-export const SlideI = () => {
+function SlideI() {
   const [ expand1, setExpand1 ] = useState(false);
   const [ expand2, setExpand2 ] = useState(false);
 
@@ -88,9 +88,7 @@ export const SlideI = () => {
           <TopicContainer>
             <NumberContainer>1</NumberContainer>
             <TextContainer>
-            <a href="https://biblioteca-a.read.garden/viewer/9786556903224/10" target="_blank">
               <h3>Desenvolvimento humano: infância, adolescência e vida adulta de Tiago Cortinaz</h3>
-            </a>
             </TextContainer>
           </TopicContainer>
         </TopicListContainer>
@@ -98,11 +96,5 @@ export const SlideI = () => {
     </Container>
   );
 };
- 
-export const SlideII = () => {
-  return(
-    <div>
-      <h1>Aula 2</h1>
-    </div>
-  );  
-};
+
+export default SlideI;

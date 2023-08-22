@@ -52,7 +52,7 @@ export const TopicContainer = styled.div`
   justify-content: space-between;
   align-items: center;
   margin: 10px 0 10px 10px;
-  background-color: aliceblue;
+  background-color: rgba(255, 255, 255, 0.7);
   cursor: pointer;
   .subTopic{
     width: 95%;
@@ -65,8 +65,9 @@ export const NumberContainer = styled.div`
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  border: 10px solid aquamarine;
-  background-color: aqua;
+  border: 10px solid aqua;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 5px 0px 10px 3px aqua;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -82,8 +83,8 @@ export const TextContainer = styled.div`
   justify-content: flex-start;
   align-items: left;
   font-size: 20px;
+  margin-right: 50px;
   padding-left: 20px;
-  background-color: aliceblue;
 `;
 
 export const DescriptionContainer = styled.div<IContainerProps>`
@@ -92,7 +93,6 @@ export const DescriptionContainer = styled.div<IContainerProps>`
   flex-direction: column;
   justify-content: space-between;
   border-radius: 0 0 50px 50px ;
-  background-color: aliceblue;
 `;
 
 export const DescriptionContainer1 = styled.div<IContainerProps>`
@@ -101,14 +101,14 @@ export const DescriptionContainer1 = styled.div<IContainerProps>`
   flex-direction: column;
   justify-content: space-between;
   border-radius: 0 0 50px 50px ;
-  background-color: aliceblue;
 `;
 
 export const Dot = styled.div`
   min-width: 11px;
   min-height: 11px;
   border-radius: 50%;
-  border: 4px solid aquamarine;
-  background-color: aqua;
+  border: 4px solid aqua;
+  box-shadow: 0px 0px 4px 2px aqua;
+  background-color: rgba(255, 255, 255, 0.5);
   margin: 10px 20px 10px 10px;
 `;

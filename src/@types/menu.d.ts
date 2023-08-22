@@ -9,4 +9,6 @@ export interface IContainerProps {
     hideModal?: boolean;
     expand1?: boolean;
     expand2?: boolean;
+    expand3?: boolean;
+    expand4?: boolean;
 };

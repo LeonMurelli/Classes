@@ -1,5 +1,5 @@
-import { SlideI, SlideII } from "./Aula_1";
+import  SlideI  from "./Aula_1";
 
-const AulaI = [SlideI, SlideII];
+const AulaI = [SlideI];
 
 export default AulaI

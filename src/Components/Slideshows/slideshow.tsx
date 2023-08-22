@@ -4,7 +4,7 @@ import { useContext, useState } from "react";
 import BackIcon from '../../Assets/back-button.png'
 import NextIcon from '../../Assets/next-button.png'
 
-const SlidePresentation = () => {
+function SlidePresentation() {
   const { slides } = useContext(SlideContext)
   const [currentSlideIndex, setCurrentSlideIndex] = useState(0);
 
