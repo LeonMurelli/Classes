@@ -12,10 +12,10 @@ import {
   TopicContainer, 
   TopicListContainer
 } from "./styles";
-import Research1 from "../../../Assets/kid-research.jpg"
+import Theory from "../../../Assets/IR-Theory-featured-image.jpg"
 import { useState } from "react";
 
-function SlideII() {
+function SlideI() {
   const [ expand1, setExpand1 ] = useState(false);
   const [ expand2, setExpand2 ] = useState(false);
   const [ expand3, setExpand3 ] = useState(false);
@@ -39,20 +39,20 @@ function SlideII() {
   return(
     <Container>
       <h1>Psicologia do Desenvolvimento: Infância e Adolescência</h1>
-      <h2>A História da Psicologia do Desenvolvimento: Nascimento da Psicologia do Desenvolvimento</h2>
+      <h2>Principais teorias do desenvolvimento humano</h2>
       <ContentContainer>
         <ImageContainer>
-          <Image alt="Pesquisa Criança" src={Research1} />
+          <Image alt="Teorias" src={Theory} />
         </ImageContainer>
         <TopicListContainer>
           <TopicContainer onClick={handleExpand1}>
             <NumberContainer>1</NumberContainer>
             <TextContainer>
-              <h3>A Psicobiologia</h3>
+              <h3>Teorias Comportamentalistas - Behaviorismo</h3>
               <DescriptionContainer className="topic1" expand1={expand1}>
                 <TopicContainer className="subTopic">
                   <Dot />
-                  <span>Estuda as bases biológicas relacionadas ao funcionamento do sistema nervoso central e, mais especificamente, ao comportamento e aos processos psíquicos; dentre os tópicos estudados pela psicobiologia, pode-se destacar a aprendizagem, a estimulação sensorial e as doenças mentais.</span>
+                  <span>John Broadus Watson e Burrhus Frederic Skinner</span>
                 </TopicContainer>
               </DescriptionContainer>
             </TextContainer>
@@ -60,11 +60,11 @@ function SlideII() {
           <TopicContainer onClick={handleExpand2}>
             <NumberContainer>2</NumberContainer>
             <TextContainer>
-              <h3>A Psicologia da Personalidade </h3>
+              <h3>Teorias Cognitivas</h3>
               <DescriptionContainer1 className="topic2" expand2={expand2}>
                 <TopicContainer className="subTopic">
                   <Dot />
-                  <span>Estuda experiências subjetivas internas; contribui, por exemplo, para a identificação de sistemas neurais/biológicos que influenciam a personalidade e ajuda a explicar diferenças significativas entre as pessoas. Ao mesmo tempo, especialmente em seus estudos mais recentes, busca entender, também, como os contextos nos quais as pessoas vivem podem influenciar a forma como elas dão sentido ou atribuem significados a eventos cotidianos.</span>
+                  <span>Jean Piaget e Lev Semionovitch Vigotski</span>
                 </TopicContainer>
               </DescriptionContainer1>
             </TextContainer>
@@ -72,11 +72,11 @@ function SlideII() {
           <TopicContainer onClick={handleExpand3}>
             <NumberContainer>3</NumberContainer>
             <TextContainer>
-              <h3>O Desenvolvimento Cognitivo</h3>
+              <h3>Teorias Psicanalíticas</h3>
               <DescriptionContainer2 className="topic3" expand3={expand3}>
                 <TopicContainer className="subTopic">
                   <Dot />
-                  <span>Estuda o processamento de informações pelo cérebro, os recursos conceituais e as habilidades perceptivas mentais, entre outros aspectos. O desenvolvimento cognitivo pesquisa a capacidade dos indivíduos de pensar e compreender e estuda questões relativas à linguagem, à coordenação motora, ao desenvolvimento afetivo/emocional, entre outros. O desenvolvimento cognitivo também considera fatores externos aos indivíduos em suas análises, pois considera que os sujeitos desenvolvem respostas cada vez mais complexas ao meio.</span>
+                  <span>Sigmund Freud e Erik Erikson</span>
                 </TopicContainer>
               </DescriptionContainer2>
             </TextContainer>
@@ -87,4 +87,4 @@ function SlideII() {
   );
 };
 
-export default SlideII;
+export default SlideI;

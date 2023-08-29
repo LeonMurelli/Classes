@@ -11,4 +11,5 @@ export interface IContainerProps {
     expand2?: boolean;
     expand3?: boolean;
     expand4?: boolean;
+    expand5?: boolean;
 };

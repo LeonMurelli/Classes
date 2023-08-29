@@ -1,4 +1,5 @@
 import { 
+  BottomContainer,
   Container,
   ContentContainer, 
   DescriptionContainer, 
@@ -6,17 +7,23 @@ import {
   DescriptionContainer2, 
   DescriptionContainer3, 
   Dot, 
+  FirstItem, 
+  FourthItem, 
   Image, 
   ImageContainer, 
   NumberContainer, 
+  SecondItem, 
+  TableContainer, 
   TextContainer, 
+  ThirdItem, 
+  TopContainer, 
   TopicContainer, 
   TopicListContainer
 } from "./styles";
-import Time from "../../../Assets/time-passing.jpg";
+import Skinner from "../../../Assets/img_TT_skinner_lab.jpg"
 import { useState } from "react";
 
-function SlideIII() {
+function SlideII() {
   const [ expand1, setExpand1 ] = useState(false);
   const [ expand2, setExpand2 ] = useState(false);
   const [ expand3, setExpand3 ] = useState(false);
@@ -50,32 +57,32 @@ function SlideIII() {
   return(
     <Container>
       <h1>Psicologia do Desenvolvimento: Infância e Adolescência</h1>
-      <h2>A História da Psicologia do Desenvolvimento: Evolução da Psicologia do Desenvolvimento</h2>
+      <h2>A Teoria Comportamental e a Psicologia do Desenvolvimento</h2>
       <ContentContainer>
         <ImageContainer>
-          <Image alt="Pesquisa Binet" src={Time} />
+          <Image alt="Pesquisa Criança" src={Skinner} />
         </ImageContainer>
         <TopicListContainer>
           <TopicContainer onClick={handleExpand1}>
             <NumberContainer>1</NumberContainer>
             <TextContainer>
-              <h3>1920 - 1939</h3>
+              <h3>Comportamento Reflexo ou Sistema Estímulo e Resposta</h3>
               <DescriptionContainer className="topic1" expand1={expand1}>
                 <TopicContainer className="subTopic">
                   <Dot />
-                  <p><span className="italicText">Society for research in Child Development</span> - Sociedade de Pesquisa em Desenvolvimento Infantil (1933)</p>
+                  <span>Se entende por Estímulos todo fenômeno proveniente do meio externo ou interno que possa provocar uma reação do organismo.</span>
                 </TopicContainer>
                 <TopicContainer className="subTopic">
                   <Dot />
-                  <span>Foco no desenvolvimento intelectual das crianças.</span>
+                  <span>Essa reação a um estímulo específico que afeta o organizmo é então chamada de resposta e completa o ciclo do comportamento.</span>
                 </TopicContainer>
                 <TopicContainer className="subTopic">
                   <Dot />
-                  <span>Crítica ao modelo descritivo, que objetiva levantar uma série de informações sobre determinados fenômenos e descrever suas características.</span>
+                  <span>Para Watson, reações inatas a estímulos específicos compõem os comportamentos respondentes. Em um nível maior de complexidade estão os comportamentos condicionados pela substituição de seu estímulo.</span>
                 </TopicContainer>
                 <TopicContainer className="subTopic">
                   <Dot />
-                  <span>Interesse crescente no modelo explicativo longitudinal, que visam à identificação de fatores que contribuem para a ocorrência de determinados fenômenos em um determinado período de tempo (em geral alguns anos) e analisam as mudanças ocorridas no fenômeno provocadas também pela passagem do tempo.</span>
+                  <span>O desenvolvimento humano acontece mediante uma sequência de condicionamentos não planejados que constroem comportamentos progressivamente mais complexos.</span>
                 </TopicContainer>
               </DescriptionContainer>
             </TextContainer>
@@ -83,19 +90,19 @@ function SlideIII() {
           <TopicContainer onClick={handleExpand2}>
             <NumberContainer>2</NumberContainer>
             <TextContainer>
-              <h3>1940 - 1959</h3>
+              <h3>Comportamento Operante e o Behaviorismo radical</h3>
               <DescriptionContainer1 className="topic2" expand2={expand2}>
                 <TopicContainer className="subTopic">
                   <Dot />
-                  <span>Segunda guerra mundial e a falta de investimento em pesquisas.</span>
+                  <span>Skinner amplia o arcabouço teórico deixado por Watson ao trazer a ideia de que os homems, além da relação paciva de que reage a estímulos do meio, atuam no meio de forma ativa, intencional, a partir de seus próprios esquemas e promovendo mudanças no ambiente em que estão inseridos.</span>
                 </TopicContainer>
                 <TopicContainer className="subTopic">
                   <Dot />
-                  <span>Pesquisas exploratórias com métodos correlacionais que pretendem criar maior familiaridade com o problema de pesquisa, tendo como objetivo torná-lo mais explícito ou construir hipóteses sobre o mesmo.</span>
+                  <span>O ciclo do comportamento é ampliado, recebendo influência do meio tanto antes quanto depois da resposta. Inclui as consequências da reação como fator relevante e manipulável do comportamento.</span>
                 </TopicContainer>
                 <TopicContainer className="subTopic">
                   <Dot />
-                  <span>O estudo das relações entre as variáveis é um estudo descritivo, sem manipulação da variáveis e, consequentemente, sem estabelecer relações causais entre elas.</span>
+                  <span>Experimentos com a caixa de Skinner.</span>
                 </TopicContainer>
               </DescriptionContainer1>
             </TextContainer>
@@ -103,23 +110,27 @@ function SlideIII() {
           <TopicContainer onClick={handleExpand3}>
             <NumberContainer>3</NumberContainer>
             <TextContainer>
-              <h3>1960 - 1989</h3>
+              <h3>Reforçamento e punição</h3>
               <DescriptionContainer2 className="topic3" expand3={expand3}>
                 <TopicContainer className="subTopic">
-                  <Dot />
-                  <span>Retorno dos investimentos em pesquisa</span>
-                </TopicContainer>
-                <TopicContainer className="subTopic">
-                  <Dot />
-                  <span>Preponderância das pesquisas sobre desenvolvimento nas áreas do Comportamentalismo (John B. Watson e B. F. Skinner), do Sociointeracionismo (L. S. Vygotsky) e da Psicologia Genética (Jean Piaget) </span>
-                </TopicContainer>
-                <TopicContainer className="subTopic">
-                  <Dot />
-                  <span>Revolução cognitiva - diferentes elementos da cognição passam a ser estudados e investigados.</span>
-                </TopicContainer>
-                <TopicContainer className="subTopic">
-                  <Dot />
-                  <span>Pesquisas exploratórias de cunho experimental - buscam identificar, controlar e manipular variáveis e seus efeitos sobre um objeto de estudo.</span>
+                  <TableContainer>
+                    <TopContainer>
+                      <FirstItem>
+                        <h3>Reforçamento Positivo</h3>
+                      </FirstItem>
+                      <SecondItem>
+                        <h3>Reforçamento Negativo</h3>
+                      </SecondItem>
+                    </TopContainer>
+                    <BottomContainer>
+                      <ThirdItem>
+                        <h3>Punição Positiva</h3>
+                      </ThirdItem>
+                      <FourthItem>
+                        <h3>Punição Negativa</h3>
+                      </FourthItem>
+                    </BottomContainer>
+                  </TableContainer>
                 </TopicContainer>
               </DescriptionContainer2>
             </TextContainer>
@@ -127,19 +138,23 @@ function SlideIII() {
           <TopicContainer onClick={handleExpand4}>
             <NumberContainer>4</NumberContainer>
             <TextContainer>
-              <h3>1990 aos dias de hoje</h3>
+              <h3>Repertório Comportamental</h3>
               <DescriptionContainer3 className="topic4" expand4={expand4}>
                 <TopicContainer className="subTopic">
                   <Dot />
-                  <span>Os estudos sobre o desenvolvimento humano se expandem para as outras fases de seu ciclo vital, passando a estudar os fenômenos que se expressam desde o nascimento até a morte.</span>
+                  <span>Conjunto e padrões de comportamentos aprendidos e fortalecidos pelo reforçamento.</span>
                 </TopicContainer>
                 <TopicContainer className="subTopic">
                   <Dot />
-                  <span>Reconhecimento da interdisciplinaridade da Psicologia do Desenvolvimento.</span>
+                  <span>O equivalente ao conceito de personalidade.</span>
                 </TopicContainer>
                 <TopicContainer className="subTopic">
                   <Dot />
-                  <span>Surgimento de novos paradigmas.</span>
+                  <span>Para Skinner a ideia de uma personalidade neurótica/patológica nada mais é que a inclusão no repertório de comportamentos não adaptativos que, por algum motivo, foram reforçados.</span>
+                </TopicContainer>
+                <TopicContainer className="subTopic">
+                  <Dot />
+                  <span>Na realidade as contingências do comportamento não são tão controladas. É comum acontecerem reforçamentos de determinados comportamentos coincidentemente, ao invés de uma ligação funcional com o reforço. Consequentemente, é comum a presença de comportamentos supersticiosos no repertório de cada indivíduo.</span>
                 </TopicContainer>
               </DescriptionContainer3>
             </TextContainer>
@@ -150,4 +165,4 @@ function SlideIII() {
   );
 };
 
-export default SlideIII;
+export default SlideII;

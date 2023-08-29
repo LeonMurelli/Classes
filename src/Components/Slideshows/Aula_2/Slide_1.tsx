@@ -87,7 +87,7 @@ function SlideI() {
               <DescriptionContainer2 className="topic3" expand3={expand3}>
                 <TopicContainer className="subTopic">
                   <Dot />
-                  <span>É uma associação criada em 1899 por Ferdinand Buisson. Foi o laboratório de pesquisa psicopedagógica do psicólogo Alfred Binet antes de se tornar um dos locais de desenvolvimento da pesquisa psicopedagógica na França 1 . Continua hoje suas atividades para promover a memória e a obra de Alfred Binet, bem como a promoção de pesquisas na história da psicologia e nas ciências da educação sob o nome de Société Binet-Simon.</span>
+                  <span>É uma associação criada em 1899 por Ferdinand Buisson. Foi o laboratório de pesquisa psicopedagógica do psicólogo Alfred Binet antes de se tornar um dos locais de desenvolvimento da pesquisa psicopedagógica na França. Continua hoje suas atividades para promover a memória e a obra de Alfred Binet, bem como a promoção de pesquisas na história da psicologia e nas ciências da educação sob o nome de Société Binet-Simon.</span>
                 </TopicContainer>
               </DescriptionContainer2>
             </TextContainer>

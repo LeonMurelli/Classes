@@ -5,4 +5,4 @@ import SlideIV from "./Slide_4";
 
 const AulaII = [SlideI, SlideII, SlideIII, SlideIV];
 
-export default AulaII
+export default AulaII;
