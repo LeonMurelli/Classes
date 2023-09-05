@@ -3,7 +3,6 @@ import {
   ContentContainer, 
   DescriptionContainer, 
   DescriptionContainer1, 
-  DescriptionContainer2, 
   Dot, 
   Image, 
   ImageContainer, 
@@ -18,22 +17,15 @@ import { useState } from "react";
 function SlideI() {
   const [ expand1, setExpand1 ] = useState(false);
   const [ expand2, setExpand2 ] = useState(false);
-  const [ expand3, setExpand3 ] = useState(false);
 
   const handleExpand1 = () => {
     setExpand1(!expand1)    
     setExpand2(false)
-    setExpand3(false)
   };
+  
   const handleExpand2 = () => {
     setExpand1(false)    
     setExpand2(!expand2)
-    setExpand3(false)
-  };
-  const handleExpand3 = () => {
-    setExpand1(false)
-    setExpand2(false)
-    setExpand3(!expand3)
   };
 
   return(
