@@ -4,6 +4,7 @@ import {
   DescriptionContainer, 
   DescriptionContainer1, 
   DescriptionContainer2, 
+  DescriptionContainer3, 
   Dot, 
   Image, 
   ImageContainer, 
@@ -103,7 +104,19 @@ function SlideI() {
               <DescriptionContainer2 className="topic3" expand3={expand3}>
                 <TopicContainer className="subTopic">
                   <Dot />
-                  <span>As novas informações que o indivíduo recebe são relacionadas com as estruturas cognitivas já existentes e provocam alterações nelas.</span>
+                  <span>Instância do aparelho psíquico responsáveis pelas funções conscientes como percepção, pensamento, memória, atenção, antecipação, discriminação, juízo crítico, ação motora, entre outras. Emprega estas funções para relacionar-se adaptativamente com a realidade do mundo exterior.</span>
+                </TopicContainer>
+                <TopicContainer className="subTopic">
+                  <Dot />
+                  <span>Sede e fonte de um conjunto de funções mais complexas, na sua maior parte inconsciente, como é o caso da produção de angústias, mecanismos de defesa, fenômenos de identificações e formação de símbolos.</span>
+                </TopicContainer>
+                <TopicContainer className="subTopic">
+                  <Dot />
+                  <span>Sede de representações que determinam a imagem que o sujeito tem de si mesmo e que estruturam o seu sentimento de identidade e de auto-estima.</span>
+                </TopicContainer>
+                <TopicContainer className="subTopic">
+                  <Dot />
+                  <span>Nascido e regido pelo princípio da realidade.</span>
                 </TopicContainer>
               </DescriptionContainer2>
             </TextContainer>
@@ -112,12 +125,20 @@ function SlideI() {
             <NumberContainer>4</NumberContainer>
             <TextContainer>
               <h3>O Superego</h3>
-              <DescriptionContainer1 className="topic4" expand4={expand4}>
+              <DescriptionContainer3 className="topic4" expand4={expand4}>
                 <TopicContainer className="subTopic">
                   <Dot />
-                  <span>As novas informações que o indivíduo recebe são relacionadas com as estruturas cognitivas já existentes e provocam alterações nelas.</span>
+                  <span>Internalização dos valores, das proibições, das metas, dos limites e da autoridade; formando o aspecto da moral a partir da punição e o ideal do eu a partir dos elogios.</span>
                 </TopicContainer>
-              </DescriptionContainer1>
+                <TopicContainer className="subTopic">
+                  <Dot />
+                  <span>Controla e inibe os impulsos do Id exercendo uma força oposta, geralmente, pelos sentimentos de culpa e vergonha.</span>
+                </TopicContainer>
+                <TopicContainer className="subTopic">
+                  <Dot />
+                  <span>Induz e pressiona o Ego a agir de acordo e em busco do ideal do eu.</span>
+                </TopicContainer>
+              </DescriptionContainer3>
             </TextContainer>
           </TopicContainer>
         </TopicListContainer>
