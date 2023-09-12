@@ -16,7 +16,7 @@ import {
 import Erikson from "../../../Assets/Erik.jpg";
 import { useState } from "react";
 
-function SlideIV() {
+function SlideV() {
   const [ expand1, setExpand1 ] = useState(false);
   const [ expand2, setExpand2 ] = useState(false);
   const [ expand3, setExpand3 ] = useState(false);
@@ -59,23 +59,23 @@ function SlideIV() {
           <TopicContainer onClick={handleExpand1}>
             <NumberContainer>1</NumberContainer>
             <TextContainer>
-              <h3>Confiança básica versus Desconfiança básica</h3>
+              <h3>Identidade versus Confusão de Papéis</h3>
               <DescriptionContainer className="topic1" expand1={expand1}>
                 <TopicContainer className="subTopic">
                   <Dot />
-                  <span>Corresponde ao período entre o nascimento e os primeiros 18 meses de vida do bebê.</span>
+                  <span>Aborda a crise de identidade vivenciada durante a adolescência.</span>
                 </TopicContainer>
                 <TopicContainer className="subTopic">
                   <Dot />
-                  <span>A atenção dele está voltada para a mãe,  que  satisfaz  suas  necessidades  e  desejos  em  uma  margem  de  tempo suportávell  fazendo-o compreender que não está abandonado à própria sorte (em alguns casos outra pessoa assume esse papel).</span>
+                  <span>Essa etapa é marcada por transformações físicas e psicológicas requerendo do adolescente segurança para passar por todas elas. Essa segurança vem da integração realizada pelo ego na forma da identidade do ego</span>
                 </TopicContainer>
                 <TopicContainer className="subTopic">
                   <Dot />
-                  <span>Quando  o  bebê  vivencia  essa  fase  de  forma  harmoniosa,  recebendo  carinho  e  atenção  dos  seus provedores   ele   desenvolve   o   sentimento   de   confiança   básica, caso contrário, o de desconfiança básica.</span>
+                  <span>A confusão de identidade tem início com a necessidade de encontrar um papel social, o que faz o adolescente mudar sua atitude muitas vezes e  remodelar  sua  personalidade  em  um curto  período  de  tempo,buscando  integração  em  algum grupo de seu interesse.</span>
                 </TopicContainer>
                 <TopicContainer className="subTopic">
                   <Dot />
-                  <span>O desenvolvimento saudável do ego necessita do equilíbrio entre esses dois sentimentos, sendo importante que a criança vivencie alguns momentos de frustração para compreender que é importante desconfiar em alguns momentos.</span>
+                  <span className="italicText">[...]  o  sentimento  de  identidade  do  ego, então  firma  certeza  de  que  coerência  e  continuidade interiores elaborados no passado alicerçam e equivalem á coerência e á continuidade do próprio significado  de  si  mesmo  para  a  cultura,  o  que  se  evidencia,  por  exemplo,  na  escolha  de  uma carreira.(Carpigiani, 2010)</span>
                 </TopicContainer>
               </DescriptionContainer>
             </TextContainer>
@@ -83,7 +83,7 @@ function SlideIV() {
           <TopicContainer onClick={handleExpand2}>
             <NumberContainer>2</NumberContainer>
             <TextContainer>
-              <h3>Autonomia versus vergonha, dúvida</h3>
+              <h3>Intimidade versus Isolamento</h3>
               <DescriptionContainer1 className="topic2" expand2={expand2}>
                 <TopicContainer className="subTopic">
                   <Dot />
@@ -111,7 +111,7 @@ function SlideIV() {
           <TopicContainer onClick={handleExpand3}>
             <NumberContainer>3</NumberContainer>
             <TextContainer>
-              <h3>Iniciativa versus Culpa</h3>
+              <h3>Generatividade versus Estagnação</h3>
               <DescriptionContainer2 className="topic3" expand3={expand3}>
                 <TopicContainer className="subTopic">
                   <Dot />
@@ -135,7 +135,7 @@ function SlideIV() {
           <TopicContainer onClick={handleExpand4}>
             <NumberContainer>4</NumberContainer>
             <TextContainer>
-              <h3>Diligência versus Inferioridade</h3>
+              <h3>Integridade do Ego versus Desespero</h3>
               <DescriptionContainer3 className="topic4" expand4={expand4}>
                 <TopicContainer className="subTopic">
                   <Dot />
@@ -158,4 +158,4 @@ function SlideIV() {
   );
 };
 
-export default SlideIV;
+export default SlideV;
