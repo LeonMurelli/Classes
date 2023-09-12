@@ -87,23 +87,23 @@ function SlideV() {
               <DescriptionContainer1 className="topic2" expand2={expand2}>
                 <TopicContainer className="subTopic">
                   <Dot />
-                  <span>Ocorre entre os primeiros 18 meses de vida e os 03 anos de idade. </span>
+                  <span>Crise comum ao jovem adulto (entre 21 e 40 anos)</span>
                 </TopicContainer>
                 <TopicContainer className="subTopic">
                   <Dot />
-                  <span>A criança está com maior mobilidade,iniciando o desenvolvimento do senso de independência e/ou autonomia.</span>
+                  <span>O indivíduo deve estar pronto para unir a sua identidade a de outra pessoa sem se sentir ameaçado.</span>
                 </TopicContainer>
                 <TopicContainer className="subTopic">
                   <Dot />
-                  <span>Necessita de orientação dos pais para evitar que a criança vivencie sucessivos fracassos gerando um sentimento de vergonha (raiva de si  mesmo)  e  dúvida  ao  invés  do  autocontrole  e  autovalor.</span>
+                  <span>Quando o ego não está suficientemente seguro, o indivíduo pode preferir o isolamento em detrimento da intimidade.</span>
                 </TopicContainer>
                 <TopicContainer className="subTopic">
                   <Dot />
-                  <span>A criança começa a assimilar regras sociais compreendendo alguns privilégios, obrigações e limitações, aprendendo a se controlar.</span>
+                  <span>Precisava estar preparado para a intimidade,  estabelecendo  ligações  afetivas  duradouras  e  com  força  ética  suficiente  para  ser  fiel  a  essas ligações, mesmo que elas imponham compromissos significativos, desenvolvendo a virtude do amor.</span>
                 </TopicContainer>
                 <TopicContainer className="subTopic">
                   <Dot />
-                  <span>É necessãrio equilíbrio  entre experimentações  positivas  e  negativas  para  o  desenvolvimento  saudável  do  ego.    É esperado que nessa etapa a criança desenvolva a força básica da vontade.</span>
+                  <span>O jovem adulto precisa suportar estar sozinho, assim como estar em um relacionamento.</span>
                 </TopicContainer>
               </DescriptionContainer1>
             </TextContainer>
@@ -115,19 +115,15 @@ function SlideV() {
               <DescriptionContainer2 className="topic3" expand3={expand3}>
                 <TopicContainer className="subTopic">
                   <Dot />
-                  <span>Se  dá  entre  os  03  e  06  anos  de  idade,  quando  a crianças  ingressa  na  escola.</span>
+                  <span>Conhecida como a fase da meia idade, ocorre entre 40 e 60 anos.</span>
                 </TopicContainer>
                 <TopicContainer className="subTopic">
                   <Dot />
-                  <span>Unindo  confiança  e  autonomia  a  criança desenvolve a determinação, imprescindível para o senso de iniciativa. Amplia também sua capacidade de planejamento e organização, desenvolvendo como virtude o propósito.</span>
+                  <span>O indivíduo deve estar apto para “enfrentar desafios, cuidar dos bens conquistados e fazer a manutenção das relações afetivas”. É nessa etapa que ocorre a construção da  família,  a  expansão  profissional  e  o  envolvimento  e  cuidado  com  uma  nova  geração.</span>
                 </TopicContainer>
                 <TopicContainer className="subTopic">
                   <Dot />
-                  <span>Quando seus planos não se concretizam a criança tende a direcionar sua energia para a fantasia, tentando compensar,de algum modo,a culpa por não realizá-los. Na fase adulta essa frustração poderesultar em patologias ou serexpressa pela somatização dos conflitos.</span>
-                </TopicContainer>
-                <TopicContainer className="subTopic">
-                  <Dot />
-                  <span>A criança, ao se sentir culpada pode também desenvolver ansiedade por atividades futuras. </span>
+                  <span>Contudo, à medida que o indivíduo envelhece o seu envolvimento com as novas gerações pode se perder, o que gera o sentimento de estagnação, por não se sentirem mais necessários.</span>
                 </TopicContainer>
               </DescriptionContainer2>
             </TextContainer>
@@ -139,15 +135,15 @@ function SlideV() {
               <DescriptionContainer3 className="topic4" expand4={expand4}>
                 <TopicContainer className="subTopic">
                   <Dot />
-                  <span>Ocorre  entre  os  06  anos  de  idade  e  a puberdade.</span>
+                  <span>Oitavo e último estágio, após os 60 anos de idade.</span>
                 </TopicContainer>
                 <TopicContainer className="subTopic">
                   <Dot />
-                  <span>Aprende o que é valorizado no mundo adulto, e tenta se adaptar a  ele,  projetando-se  no  futuro.  Assim,  ela  desenvolve  a  ideia  de  perseverança,  compreendendo  que podem existir recompensas em longo prazo.</span>
+                  <span>O indivíduo reflete sobre sua vida, o que fez e o que deixou de fazer.</span>
                 </TopicContainer>
                 <TopicContainer className="subTopic">
                   <Dot />
-                  <span>Começa a se interessar pelo trabalho, realizando diferentes tarefas e sentindo que adquiriu habilidade quando consegue fazer com competência e sentindo prazer por tal. É essa sensação de prazer que impede o ego de regredir ou se sentir inferior.</span>
+                  <span>A pessoa pode entrar em desespero ao ver que a morte está mais próxima, compreendendo que seu tempo acabou  que  não  pode  fazer  mais  nada  pela  família  e  pela  sociedade,  vivenciando  a  velhice  em  eterna nostalgia e tristeza; ou, a pessoa sente que cumpriu com seu dever, experimentando os sentimentos de dignidade  e  integridade.</span>
                 </TopicContainer>
               </DescriptionContainer3>
             </TextContainer>
