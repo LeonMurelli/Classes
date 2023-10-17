@@ -51,7 +51,7 @@ export const TopicContainer = styled.div`
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin: 10px 0 10px 10px;
+  margin: 10px 10px 10px 10px;
   background-color: rgba(255, 255, 255, 0.7);
   cursor: pointer;
   .subTopic{

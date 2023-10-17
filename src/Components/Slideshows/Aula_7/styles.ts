@@ -10,7 +10,6 @@ export const Container = styled.div`
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  overflow: auto;
 `;
 
 export const ContentContainer = styled.div`
@@ -54,7 +53,7 @@ export const TopicContainer = styled.div`
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin: 10px 500px 10px 10px;
+  margin: 10px 10px 10px 10px;
   background-color: rgba(255, 255, 255, 0.7);
   cursor: pointer;
   .subTopic{
@@ -62,6 +61,12 @@ export const TopicContainer = styled.div`
     padding: 20px 0 20px 5px;
     margin-left: 0;
     justify-content: flex-start;
+  };
+  .external{
+    width: 100%;
+    height: 700px;
+    margin-left: 20px;
+    margin-right: 20px;
   };
 `;
 

@@ -10,6 +10,8 @@ export const Container = styled.div`
   justify-content: space-between;
   align-items: center;
   background-color: rgba(255, 255, 255, 0.5);
+  overflow-x: hidden;
+  overflow-y: auto;
   .IntroContainer{
     flex-direction: column;
   };
@@ -101,5 +103,4 @@ export const TextContainer = styled.div`
   font-size: 20px;
   padding-left: 20px;
   margin-right: 80px;
-  background-color: aliceblue;
 `;

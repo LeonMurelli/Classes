@@ -14,7 +14,7 @@ import {
   TopicContainer, 
   TopicListContainer
 } from "./styles";
-import Freud from "../../../Assets/Freud.jpg";
+import Breastfeeding from "../../../Assets/breastfeeding.png";
 import { useState } from "react";
 
 function SlideIII() {
@@ -63,10 +63,10 @@ function SlideIII() {
   return(
     <Container>
       <h1>Psicologia do Desenvolvimento: Infância e Adolescência</h1>
-      <h2>As fases do desenvolvimento psicosexual</h2>
+      <h2>O desenvolvimento na primeira infância</h2>
       <ContentContainer>
         <ImageContainer>
-          <Image alt="Sigmund Freud" src={Freud} />
+          <Image alt="Amamentação" src={Breastfeeding} />
         </ImageContainer>
         <TopicListContainer>
           <TopicContainer onClick={handleExpand1}>

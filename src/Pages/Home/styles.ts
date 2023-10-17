@@ -4,7 +4,7 @@ import Background from "../../Assets/UDF-fachada.jpeg";
 export const Container = styled.div`
   max-width: 100vw;
   min-height: 100vh;
-  height: fit-content;
+  height: auto;
   background-image: url(${Background});
   background-size: cover;
   background-repeat: no-repeat;
