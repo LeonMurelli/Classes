@@ -101,7 +101,7 @@ function SlideI() {
                 </TopicContainer>
                 <TopicContainer className="subTopic">
                   <Dot />
-                  <span>O feto estabelece estabelece suas primeiras experiências ambientais através do cordão umbilical. A situação nutricional da mãe afeta o feto e seu corpo já começa a se adaptar à disponibilidade de nutrientes em seu ambiente.</span>
+                  <span>O feto estabelece suas primeiras experiências ambientais através do cordão umbilical. A situação nutricional da mãe afeta o feto e seu corpo já começa a se adaptar à disponibilidade de nutrientes em seu ambiente.</span>
                 </TopicContainer>
                 <TopicContainer className="subTopic">
                   <Dot />

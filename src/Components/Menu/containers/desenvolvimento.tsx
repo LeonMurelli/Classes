@@ -16,6 +16,7 @@ import AulaIV from "../../Slideshows/Aula_4/Deck_4";
 import AulaV from "../../Slideshows/Aula_5/Deck_5";
 import AulaVI from "../../Slideshows/Aula_6/Deck_6";
 import AulaVII from "../../Slideshows/Aula_7/Deck_7";
+import AulaVIII from "../../Slideshows/Aula_8/Deck_8";
 
 const items = [
   {icon: Aula1, description: 'Desenvolvimento I ', link: AulaI},
@@ -25,6 +26,7 @@ const items = [
   {icon: Aula1, description: 'Desenvolvimento I ', link: AulaV},
   {icon: Aula1, description: 'Desenvolvimento I ', link: AulaVI},
   {icon: Aula1, description: 'Desenvolvimento I ', link: AulaVII},
+  {icon: Aula1, description: 'Desenvolvimento I ', link: AulaVIII},
 ]
 
 function Desenvolvimento() {

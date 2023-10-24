@@ -9,7 +9,7 @@ const YouTubeVideo: React.FC<YouTubeVideoProps> = ({ videoUrl }) => {
           title="YouTube video player"
           frameBorder="0"
           allow="accelerometer; autoplay; encrypted-media; picture-in-picture"
-          allowFullScreen
+          allowFullScreen={true}
         />
       </VideoContainer>
     );
