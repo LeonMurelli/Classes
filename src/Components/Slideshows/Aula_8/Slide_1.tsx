@@ -9,12 +9,15 @@ import {
   Dot, 
   Image, 
   ImageContainer, 
+  ImageDisplay, 
   NumberContainer, 
   TextContainer, 
   TopicContainer, 
   TopicListContainer
 } from "./styles";
 import Aula from "../../../Assets/aula.jpeg";
+import Avancos from "../../../Assets/avanços.png";
+import Limits from "../../../Assets/atrasos.png";
 import { useState } from "react";
 
 function SlideI() {
@@ -121,6 +124,60 @@ function SlideI() {
                   <a href="https://anped.org.br/sites/default/files/gt07-1824.pdf" target="_blank" rel="noopener noreferrer"><h3>Referência adicional</h3></a>
                 </TopicContainer>
               </DescriptionContainer1>
+            </TextContainer>
+          </TopicContainer>
+          <TopicContainer onClick={handleExpand3}>
+            <NumberContainer>3</NumberContainer>
+            <TextContainer>
+              <h3>Os Ganhos Cognitivos</h3>
+              <DescriptionContainer2 className="topic1" expand3={expand3}>
+                <TopicContainer className="subTopic">
+                  <Dot />
+                  <span>Seguindo as fases de Piaget, as crianças de 3 a 6 anos estão no estágio Pré-Operatório, conquistando os seguintes avanços cognitivos:</span>
+                </TopicContainer>
+                <TopicContainer className="subTopic">
+                  <ImageDisplay alt="Esquema" src={Avancos}/>
+                </TopicContainer>
+              </DescriptionContainer2>
+            </TextContainer>
+          </TopicContainer>
+          <TopicContainer onClick={handleExpand4}>
+            <NumberContainer>4</NumberContainer>
+            <TextContainer>
+              <h3>Os Desafios Cognitivos</h3>
+              <DescriptionContainer3 className="topic1" expand4={expand4}>
+                <TopicContainer className="subTopic">
+                  <Dot />
+                  <span>Neste estágio possuem dificuldades devidas ao estágio de maturação, apresentando as seguintes limitações cognitivas:</span>
+                </TopicContainer>
+                <TopicContainer className="subTopic">
+                  <ImageDisplay alt="Esquema" src={Limits}/>
+                </TopicContainer>
+              </DescriptionContainer3>
+            </TextContainer>
+          </TopicContainer>
+          <TopicContainer onClick={handleExpand5}>
+            <NumberContainer>5</NumberContainer>
+            <TextContainer>
+              <h3>O Desenvolvimento Motor</h3>
+              <DescriptionContainer4 className="topic1" expand5={expand5}>
+                <TopicContainer className="subTopic">
+                  <Dot />
+                  <span>O desenvolvimento do cortex cerebral permite uma maior coordenação entre o que planejam e o que são capazes de fazer.</span>
+                </TopicContainer>
+                <TopicContainer className="subTopic">
+                  <Dot />
+                  <span>Há avanço nas habilidades motoras grossas, que envolvem músculos maiores no corpo, tornando-as capazes de correr, saltar, pular, escalar, já que os músculos e ossos estão mais fortalecidos.</span>
+                </TopicContainer>
+                <TopicContainer className="subTopic">
+                  <Dot />
+                  <span>Quanto às habilidades motoras finas, que requerem o movimento de peque-nos músculos e que envolvem a coordenação de olhos e mãos e dos músculos pequenos, permitem que as crianças consigam, por exemplo, abotoar uma camisa e desenhar imagens.</span>
+                </TopicContainer>
+                <TopicContainer className="subTopic">
+                  <Dot />
+                  <span>Novas habilidades vão sendo adquiridas e aprimoradas, desde que a criança tenha estímulo, ambientes apropriados e incentivo em autonomia para executar ações que já é capaz de realizar sem o auxílio de um adulto.</span>
+                </TopicContainer>
+              </DescriptionContainer4>
             </TextContainer>
           </TopicContainer>
         </TopicListContainer>

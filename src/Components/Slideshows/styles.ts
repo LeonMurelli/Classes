@@ -4,7 +4,7 @@ export const Container = styled.div`
   width:100%;
   max-width: 100vw;
   height: 100vh;
-  position: absolute;
+  position: relative;
   z-index: 0;
   display: flex;
   justify-content: space-between;
