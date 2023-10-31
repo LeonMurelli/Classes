@@ -62,6 +62,9 @@ export const TopicContainer = styled.div`
     margin-left: 0;
     justify-content: flex-start;
   };
+  .thirdTopic{
+    min-width: 150px;
+  };
   .external{
     width: 100%;
     height: 700px;
@@ -151,4 +154,11 @@ export const Dot = styled.div`
   background-color: rgba(255, 255, 255, 0.5);
   box-shadow: 0px 0px 4px 2px aqua;
   margin: 10px 20px 10px 10px;
+`;
+
+export const Divider = styled.div`
+  height: 100px;
+  width: 2px;
+  background-color: rgba(0, 0, 0, 1);
+  margin: 0 10px;
 `;

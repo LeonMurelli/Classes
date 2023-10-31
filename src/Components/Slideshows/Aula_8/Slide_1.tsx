@@ -77,7 +77,7 @@ function SlideI() {
           <TopicContainer onClick={handleExpand1}>
             <NumberContainer>1</NumberContainer>
             <TextContainer>
-              <h3>O Crescimento dos 3 aos 6 anos</h3>
+              <h3>O crescimento dos 3 aos 6 anos</h3>
               <DescriptionContainer className="topic1" expand1={expand1}>
                 <TopicContainer className="subTopic">
                   <Dot />
@@ -171,11 +171,15 @@ function SlideI() {
                 </TopicContainer>
                 <TopicContainer className="subTopic">
                   <Dot />
-                  <span>Quanto às habilidades motoras finas, que requerem o movimento de peque-nos músculos e que envolvem a coordenação de olhos e mãos e dos músculos pequenos, permitem que as crianças consigam, por exemplo, abotoar uma camisa e desenhar imagens.</span>
+                  <span>Quanto às habilidades motoras finas, que requerem o movimento de pequenos músculos e que envolvem a coordenação de olhos e mãos e dos músculos pequenos, permitem que as crianças consigam, por exemplo, abotoar uma camisa e desenhar imagens.</span>
                 </TopicContainer>
                 <TopicContainer className="subTopic">
                   <Dot />
                   <span>Novas habilidades vão sendo adquiridas e aprimoradas, desde que a criança tenha estímulo, ambientes apropriados e incentivo em autonomia para executar ações que já é capaz de realizar sem o auxílio de um adulto.</span>
+                </TopicContainer>
+                <TopicContainer className="subTopic">
+                  <Dot />
+                  <span>Desenvolvimento do esquema corporal: representação bem articulada de nosso corpo e de suas relações com o ambiente.</span>
                 </TopicContainer>
               </DescriptionContainer4>
             </TextContainer>
