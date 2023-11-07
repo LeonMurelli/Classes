@@ -5,7 +5,6 @@ import {
   DescriptionContainer1, 
   DescriptionContainer2, 
   DescriptionContainer3, 
-  Divider, 
   Dot, 
   Image, 
   ImageContainer, 
@@ -14,7 +13,7 @@ import {
   TopicContainer, 
   TopicListContainer
 } from "./styles";
-import Play from "../../../Assets/brincando.jpg";
+import Adolescente from "../../../Assets/Adolescente.jpg";
 import { useState } from "react";
 
 function SlideII() {
@@ -52,74 +51,68 @@ function SlideII() {
   return(
     <Container>
       <h1>Psicologia do Desenvolvimento: Infância e Adolescência</h1>
-      <h2>O desenvolvimento na terceira infância</h2>
+      <h2>O desenvolvimento na Adolescência</h2>
       <ContentContainer>
         <ImageContainer>
-          <Image alt="Amamentação" src={Play} />
+          <Image alt="Amamentação" src={Adolescente} />
         </ImageContainer>
         <TopicListContainer>
           <TopicContainer onClick={handleExpand1}>
             <NumberContainer>1</NumberContainer>
             <TextContainer>
-              <h3>O crescimento dos 7 aos 11 anos</h3>
+              <h3>O Desenvolvimento cognitivo</h3>
               <DescriptionContainer className="topic1" expand1={expand1}>
                 <TopicContainer className="subTopic">
                   <Dot />
-                  <span>Não há uma modificação tão drástica na forma do corpo como na fase anterior, mas há um crescimento significativo. Ao longo deste período as crianças tendem a dobrar de peso.</span>
+                  <span>Com a entrada no estágio Operatório Formal e a aquisição de estruturas lógicas mais elaboradas, o adolescente passa a reconhecer a realidade como a possibilidade que se concretizou entre várias outras possíveis. Com isso, quando deparado com uma situação, consegue pensar além do que há de concreto nela e considerar as várias possibilidades, circunstâncias e perspectivas que a envolvem.</span>
                 </TopicContainer>
                 <TopicContainer className="subTopic">
                   <Dot />
-                  <span>O cerebro passa para um desenvolvimento centrado na otimização de seus processos:  as áreas cerebrais vão se especializando em tarefas específicas, aumentando a velocidade e a eficiência e ampliando a capacidade de descarte de informações que não lhe tragam relevância</span>
+                  <span>Esse desenvolvimento cognitivo é atribuído, por Piaget, à maturação cerebral e à ampliação das possibilidades ambientais (indissociavelmente). Por isso a escola e o âmbito cultural têm papéis de extrema importância no desenvolvimento cognitivo.</span>
                 </TopicContainer>
+                <TopicContainer className="subTopic">
+                  <Dot />
+                  <span>A escola possibilita a difusão do conhecimento, não apenas dentro da dinâmica acadêmica. É o local onde os adolescentes formam grupos e convivem. Onde experimentará identificação entre pares, esforços de pertencimento grupal, emancipação e a criação de novos habitos. É assim o ambiente propício para se intervir nestes processos para promover uma integração positiva à sociedade.</span>
+                </TopicContainer>
+                <TopicContainer className="subTopic">
+                  <Dot />
+                  <span>Para considerar que o adolescente atingiu a maturidade cognitiva, ele deve demonstrar que tem raciocínio dedutivo para compreender os resultados das ações efetua-das sobre a realidade. Deve ser capaz de entender o valor de cada hipótese levantada, comprovando a obtenção do esquema de controle de variáveis.</span>
+                </TopicContainer> 
               </DescriptionContainer>
             </TextContainer>
           </TopicContainer>
           <TopicContainer onClick={handleExpand2}>
             <NumberContainer>2</NumberContainer>
             <TextContainer>
-              <h3>Desenvolvimento cognitivo</h3>
+              <h3>Desenvolvimento psicossocial</h3>
               <DescriptionContainer1 className="topic2" expand2={expand2}>
               <TopicContainer className="subTopic">
                   <Dot />
-                  <h3 className="thirdTopic">Pensamento espacial</h3>
-                  <Divider />
-                  <span>Daniela pode usar um mapa ou um desenho para auxiliar na procura de um objeto escondido e fornecer as indicações aos outros para que o objeto seja encontrado. Ela é capaz de ir para a escola e voltar, consegue calcular distâncias e avaliar quanto tempo precisaria para ir de um lugar para outro.</span>
+                  <span>Identidade: “um conceito coerente de si mesmo, composto por objetivos, valores e crenças com os quais o indivíduo está socialmente comprometido” (MARTORELL, 2014, p. 312).<br /> “A aquisição de um sentimento de identidade coeso e harmônico resulta do reconhecimento e da elaboração das distintas identificações parciais que, desde os primórdios de seu desenvolvimento, foram se incorporando ao sujeito pela introjeção de código de valores dos pais e da sociedade” (ZIMERMAN, 2008, p. 203).</span>
                 </TopicContainer>
                 <TopicContainer className="subTopic">
                   <Dot />
-                  <h3 className="thirdTopic">Categorização</h3>
-                  <Divider />
-                  <span>Helena é capaz de classificar objetos em categorias, tais como forma, cor ou ambas. Ela sabe que uma subclasse (rosas) tem menos membros que a classe da qual ela faz parte (flores).</span>
+                  <span>É comum que, nas vezes em que quer ser criança, os adultos cobrem do indivíduo que seja adulto, e quando quer ser adulto, a sociedade lhe diga que ainda é criança.</span>
                 </TopicContainer>
                 <TopicContainer className="subTopic">
                   <Dot />
-                  <h3 className="thirdTopic">Causa e efeito</h3>
-                  <Divider />
-                  <span>Douglas sabe quais atributos físicos de objetos de cada lado de uma balança afetarão o resultado (por exemplo, o número de objetos importa, mas a cor deles não). Ele ainda não sabe que fatores espaciais fazem a diferença, tais como posição e localização dos objetos.</span>
+                  <span>Apesar de a legislação brasileira ditar a idade de 18 anos como sendo o ingresso na vida adulta, o sentimento de ser adulto só emerge quando são resolvidos alguns desafios da adolescência e se constrói uma identidade adulta: “a escolha de uma profissão ou ocupação, a adoção dos valores pelos quais se guiará pela vida e o desenvolvimento de uma identidade sexual que satisfaça”.</span>
                 </TopicContainer>
                 <TopicContainer className="subTopic">
                   <Dot />
-                  <h3 className="thirdTopic">Seriação e inferência transitiva</h3>
-                  <Divider />
-                  <span>Catarina consegue organizar um grupo de varetas, da mais curta para a mais comprida, e pode inserir uma vareta de tamanho médio no lugar certo. Ela sabe que se uma vareta é mais comprida que uma segunda vareta e esta é mais comprida que a terceira, então a primeira vareta é mais comprida que a terceira.</span>
+                  <span>Raça ou etnia e aspectos culturais costumam ser relevantes para os jovens que pertencem a grupos minoritários.</span>
                 </TopicContainer>
                 <TopicContainer className="subTopic">
                   <Dot />
-                  <h3 className="thirdTopic">Raciocínios indutivo e dedutivo</h3>
-                  <Divider />
-                  <span>Beatriz consegue resolver problemas indutivos e dedutivos e sabe que as conclusões indutivas (com base em dados de casos específicos) são mais sussetíveis a erro que as conclusões dedutivas (baseadas em premissas gerais).</span>
+                  <span>Em função das dificuldades encontradas no ambiente social, entre gays, lésbicas e bissexuais, “a identificação e a expressão de sua identidade sexual é mais complexa do que para heterossexuais” (MARTORELL, 2014, p. 315).</span>
                 </TopicContainer>
                 <TopicContainer className="subTopic">
                   <Dot />
-                  <h3 className="thirdTopic">Conservação</h3>
-                  <Divider />
-                  <span>Filipe, aos 7 anos, sabe que se uma bola de barro for enrolada em forma de salsicha, continua tendo a mesma quantidade de barro (conservação de substância). Aos 9, acha que a bola e a salsicha têm o mesmo peso. Só no início da adolescência ele entenderá que elas deslocam a mesma quantidade de líquido se colocadas em um recipiente com água.</span>
+                  <span>Os pais, que eram idealizados na infância, passam a ser vistos de outra forma, e a família, que ocupava papel central, vê o círculo interpessoal mudar e outras pessoas serem incluídas. O conflito com os pais, suas ideias, regras e padrões é uma etapa necessária para a quebra de identificações infantis e a criação de outras mais maduras.</span>
                 </TopicContainer>
                 <TopicContainer className="subTopic">
                   <Dot />
-                  <h3 className="thirdTopic">Números e matemática</h3>
-                  <Divider />
-                  <span>Carolina é capaz de fazer contas de cabeça, pode somar contando em ordem crescente e consegue criar problemas simples.</span>
+                  <span>Amigos se tornam objeto de identificações horizontais em um movimento de aceitação e pertencimento. Professores, artistas e demais ídolos tornam-se modelos para identificações verticais que podem se intensificar ao ponto de parecer tentarem assumir suas identidades.</span>
                 </TopicContainer>
               </DescriptionContainer1>
             </TextContainer>
