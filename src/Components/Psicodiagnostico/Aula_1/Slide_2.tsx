@@ -29,7 +29,6 @@ import Cartilha from "../../../Assets/Cartilha.png";
 import MtcGraph from "../../../Assets/TeoriaMTC.jpeg";
 import MtcTable from "../../../Assets/TabelaMTC.png";
 import { useState } from "react";
-import { ImageSwitcherProps } from "../../../@types/context";
 
 
 function SlideII() {
