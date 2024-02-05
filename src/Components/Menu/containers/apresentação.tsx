@@ -9,7 +9,7 @@ import {
 import Home from '../../../Assets/botao-home.png'
 import { DisplayContext } from "../../../Contexts/displayContext";
 import { SlideContext } from "../../../Contexts/slideContext";
-import Intro from "../../Slideshows/intro";
+import Intro from "../../Desenvolvimento/intro";
 
 const items = [
   {icon: Home, description: 'Home'},

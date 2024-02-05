@@ -1,6 +1,6 @@
 import { createContext, useState } from "react";
 import { IContextProps } from "../@types/context";
-import Intro from "../Components/Slideshows/intro";
+import Intro from "../Components/Desenvolvimento/intro";
 
 export const SlideContext = createContext<any>([]); //tipar depois
 

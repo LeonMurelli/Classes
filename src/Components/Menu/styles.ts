@@ -78,7 +78,13 @@ export const MenuTitles = styled.div`
   width: 90%;
   padding: 0 10px;
   margin-bottom: 10px;
-  
+  border-radius: 10px;
+  cursor: pointer;
+
+  &:hover{
+    background-color: ${({theme}) => theme.colors.bgColor};
+  }
+
   span{
     font-weight: 400;
     font-size: 1.1rem;
@@ -91,6 +97,42 @@ export const MenuItem = styled.div<IContainerProps>`
   border-radius: 10px;
   cursor: pointer;
   display: flex;
+  flex-direction: ${({openMenu}) => openMenu? 'row' : 'column'};
+  align-items: center;
+  justify-content: ${({openMenu}) => openMenu? 'left' : 'center'};
+  padding: 0 5px;
+  box-sizing: border-box;
+  column-gap: 15px;
+
+  &:hover{
+    background-color: ${({theme}) => theme.colors.bgColor};
+  }
+`;
+
+export const MenuItem1 = styled.div<IContainerProps>`
+  width: 100%;
+  min-height: ${({openMenu}) => openMenu? '40px' : '50px'};
+  border-radius: 10px;
+  cursor: pointer;
+  display: ${({openSubMenu1}) => openSubMenu1? 'flex' : 'none'};
+  flex-direction: ${({openMenu}) => openMenu? 'row' : 'column'};
+  align-items: center;
+  justify-content: ${({openMenu}) => openMenu? 'left' : 'center'};
+  padding: 0 5px;
+  box-sizing: border-box;
+  column-gap: 15px;
+
+  &:hover{
+    background-color: ${({theme}) => theme.colors.bgColor};
+  }
+`;
+
+export const MenuItem2 = styled.div<IContainerProps>`
+  width: 100%;
+  min-height: ${({openMenu}) => openMenu? '40px' : '50px'};
+  border-radius: 10px;
+  cursor: pointer;
+  display: ${({openSubMenu2}) => openSubMenu2? 'flex' : 'none'};
   flex-direction: ${({openMenu}) => openMenu? 'row' : 'column'};
   align-items: center;
   justify-content: ${({openMenu}) => openMenu? 'left' : 'center'};

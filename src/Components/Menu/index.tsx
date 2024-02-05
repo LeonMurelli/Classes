@@ -1,5 +1,6 @@
 import { Container, Divider, HeaderContainer, MenuContainer, MenuIcon } from "./styles";
 import Desenvolvimento from "./containers/desenvolvimento";
+import Psicodiagnostico from "./containers/psicodiagnostico";
 import { useContext } from "react";
 import { DisplayContext } from "../../Contexts/displayContext";
 import HamburguerIcon from "../../Assets/hamburger.png";
@@ -13,6 +14,7 @@ const Menu: React.FC = () => {
   const menuItems = [
     { component: Opening },
     { component: Desenvolvimento },
+    { component: Psicodiagnostico },
   ];
   
   const shouldRenderAllItems = openMenu;
