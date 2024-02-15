@@ -25,7 +25,7 @@ import {
   TopicContainer, 
   TopicListContainer
 } from "./styles";
-import Cartilha from "../../../Assets/Cartilha.png";
+import Malleus from "../../../Assets/Malleus.jpg";
 import MtcGraph from "../../../Assets/TeoriaMTC.jpeg";
 import MtcTable from "../../../Assets/TabelaMTC.png";
 import { useState } from "react";
@@ -71,7 +71,7 @@ function SlideII() {
       <h2>História</h2>
       <ContentContainer>
         <ImageContainer expand1={expand1} expand2={expand2} expand3={expand3}>
-          <Image alt="Adolescente" src={Cartilha} />
+          <Image alt="Malleus Maleficarum" src={Malleus} />
         </ImageContainer>
         <TopicListContainer>
           <TopicContainer onClick={handleExpand1}>
@@ -216,7 +216,7 @@ function SlideII() {
                 </TopicContainer>
                 <TopicContainer className="subTopic">
                   <Dot />
-                  <span>Francis Galton: testagem de características e capacidades, incluindo inteligência, propondo eugenia.</span>
+                  <span>Francis Galton: testagem de características e capacidades físicas e psicológicas através de testes de correlação produto-momento (atribuido a Pearson), propondo eugenia.</span>
                 </TopicContainer>
                 <TopicContainer className="subTopic">
                   <Dot />
@@ -228,7 +228,11 @@ function SlideII() {
                 </TopicContainer>
                 <TopicContainer className="subTopic">
                   <Dot />
-                  <span>James McKeen Cattel: Testagem psicológica e aplicação prática da psicologia.</span>
+                  <span>James McKeen Cattel: Cunhou o termo testagem psicológica e se empenhou em estudar uma aplicação prática da psicologia.</span>
+                </TopicContainer>
+                <TopicContainer className="subTopic">
+                  <Dot />
+                  <span>Charles Spearman: Introduziu a ideia de fidedignidade e a base matemática para a análise fatorial.</span>
                 </TopicContainer>
               </DescriptionContainer3>            
             </TextContainer>

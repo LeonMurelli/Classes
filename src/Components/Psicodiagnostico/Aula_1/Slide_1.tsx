@@ -54,7 +54,7 @@ function SlideI() {
       <h2>Definição</h2>
       <ContentContainer>
         <ImageContainer expand1={expand1} expand2={expand2} expand3={expand3}>
-          <Image alt="Adolescente" src={Cartilha} />
+          <Image alt="Cartilha de Avaliação Psicológica" src={Cartilha} />
         </ImageContainer>
         <TopicListContainer>
           <TopicContainer onClick={handleExpand1}>
