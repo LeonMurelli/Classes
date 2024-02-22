@@ -16,7 +16,7 @@ import Teste from "../../../Assets/testing.jpg";
 import { useState } from "react";
 
 
-function SlideI() {
+function SlideII() {
   const [ expand1, setExpand1 ] = useState(false);
   const [ expand2, setExpand2 ] = useState(false);
   const [ expand3, setExpand3 ] = useState(false);
@@ -124,10 +124,6 @@ function SlideI() {
                   <Dot />
                   <span>Ao longo dos primeiros encontros, se constrói o contrato de trabalho, em que são ­previstos os papéis de cada parte; a questão de sigilo e privacidade; normas de atraso e faltas; o número aproximado de encontros, incluindo-se as primeiras entrevistas; a bateria de testes que será utilizada, se necessário; as entrevistas de devolução; e a forma como serão pagos os honorários (caso se trate de ­consultas particulares). Esse plano é construído nos primeiros encontros, podendo sofrer variações ao longo do processo.</span>
                 </TopicContainer>
-                <TopicContainer className="subTopic">
-                  <Dot />
-                  <span><span className="italicText">"...uma ­prática ética e a atualização profissional só ocorrem com a possibilidade de abertura ao novo, com autocrítica quanto ao fazer diário, refletindo sobre a relação de seus desejos pessoais e suas escolhas profissionais. Tais competências não são aprendidas apenas com leituras ou participações em debates clínicos, mas a partir de um profundo processo de autoconhecimento."</span> (Hutz et. al, 2016)</span>
-                </TopicContainer>
               </DescriptionContainer2>
             </TextContainer>
           </TopicContainer>
@@ -137,4 +133,4 @@ function SlideI() {
   );
 };
 
-export default SlideI;
+export default SlideII;
