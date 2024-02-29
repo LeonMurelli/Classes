@@ -80,16 +80,19 @@ export const TopicContainer = styled.div`
   .spacedText{
     margin-left: 8px;
     margin-right: 8px;
-  }
+  };
+  .imageContainer{
+    justify-content: center;
+  };
 `;
 
 export const ImageDisplay = styled.img`
-  width: 50%;
+  width: auto;
   height: 600px;
   border-radius: 40px;
   transition: transform 0.5s;
-  margin-left: 25%;
-  &:hover {
+/*   margin-left: 25%;
+ */  &:hover {
     transform: scale(1.05);
 }`;
 
