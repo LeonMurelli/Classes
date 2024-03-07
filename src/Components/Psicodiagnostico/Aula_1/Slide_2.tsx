@@ -84,7 +84,8 @@ function SlideII() {
                     alt="GraficoMtc" 
                     src={isHovered ? MtcTable : MtcGraph}
                     onMouseOver={() => setIsHovered(true)}
-                    onMouseOut={() => setIsHovered(false)}></ImageDisplay>
+                    onMouseOut={() => setIsHovered(false)}>
+                  </ImageDisplay>
                 </TopicContainer>
               </DescriptionContainer>
             </TextContainer>

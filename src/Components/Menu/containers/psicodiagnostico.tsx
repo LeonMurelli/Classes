@@ -11,11 +11,13 @@ import { DisplayContext } from "../../../Contexts/displayContext";
 import { SlideContext } from "../../../Contexts/slideContext";
 import AulaI from "../../Psicodiagnostico/Aula_1/Deck_1";
 import AulaII from "../../Psicodiagnostico/Aula_2/Deck_1";
+import AulaIII from "../../Psicodiagnostico/Aula_3/Deck_1";
 
 
 const items = [
   {icon: Aula1, description: 'Psicodiagnóstico', link: AulaI},
   {icon: Aula1, description: 'Psicodiagnóstico', link: AulaII},
+  {icon: Aula1, description: 'Psicodiagnóstico', link: AulaIII},
 ]
 
 function Psicodiagnostico() {
