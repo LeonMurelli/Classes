@@ -51,7 +51,7 @@ function SlideII() {
   return(
     <Container>
       <h1>Psicodiagnóstico</h1>
-      <h2>Primeiros passos</h2>
+      <h2>Exame do estado mental</h2>
       <ContentContainer>
         <ImageContainer expand1={expand1} expand2={expand2} expand3={expand3}>
           <Image alt="Anamnese" src={Teste} />
@@ -60,24 +60,18 @@ function SlideII() {
           <TopicContainer onClick={handleExpand1}>
             <NumberContainer>1</NumberContainer>
             <TextContainer>
-              <h3>Pensando na demanda</h3>
+              <h3>A técnica</h3>
               <DescriptionContainer className="topic1" expand1={expand1}>
                 <TopicContainer className="subTopic">
                   <Dot />
-                  <span>Um psicodiagnóstico tem mais chances de ser bem-sucedido quando há uma boa pergunta a ser respondida. Cabe ao psicólogo, nas entrevistas iniciais, investigar a demanda e/ou o encaminhamento para definir a pergunta a ser respondida pelo psicodiagnóstico da melhor forma possível. Muitas vezes redefinindo a demanda quando necessário. </span>
+                  <span>Avaliação acurada e sis­temática (descrição, identificação, reconheci­men­to e nomeação adequada) de sintomas objetivos (sinais diretamente observáveis) e subjetiv­os (sintomas não observáveis diretamente) dos transtornos mentais, das crises vitais (evolutivas ou acidentais) e condições similares (sem transtorno mental, mas com sintomas presentes) e das condições clínicas de outra natureza (doenças físicas ou somáticas, especialmente neurológicas, efeitos colaterais de medicamentos, etc.). Seus dados são obtidos em entrevistas abertas ou semiestruturadas.</span>
                 </TopicContainer>
                 <TopicContainer className="subTopic">
-                  <Dot />
-                  <span>Boas perguntas são aquelas que auxiliam o profissional a confirmar ou a refutar determinadas hi­póteses – por exemplo, em um caso de uma criança encaminhada para avaliação por estar com dificuldades de leitura e escrita, não conseguindo acompanhar o desempenho da turma.<br/><br/> 
-                  Aqui temos boas perguntas a responder:<br/><br/> 
-                  Teria ela um transtorno específico de aprendizagem?<br/>
-                  Questões emocionais e/ou familiares estariam in­terferindo nos processos de aprendizagem de leitura e escrita?<br/>
-                  Haveria alguma questão neu­rológica envolvida? Poderíamos pensar em trans­torno de déficit de atenção/hiperatividade (TDAH)?<br/>
-                  Quais demandas psíquicas não estariam sendo atendidas, gerando, consequentemente, o sintoma?</span>
-                </TopicContainer>
-                <TopicContainer className="subTopic">
-                  <Dot />
-                  <span>Concomitantemente à definição do que se está recebendo como demanda, das hipóteses e das estratégias de avaliação, é possível que haja necessidade de avaliações de outros profissionais. Por vezes, só se consegue completar o processo psicodiagnóstico com avaliações de outros profissionais, como fonoaudiólogos, neurologistas e psiquiatras.</span>
+                <iframe
+                  className="external"
+                  src="https://neurologiahu.ufsc.br/files/2012/09/MoCA-Test-Portuguese_Brazil.pdf" 
+                  title="External Page"
+                  />
                 </TopicContainer>
               </DescriptionContainer>
             </TextContainer>
@@ -85,15 +79,35 @@ function SlideII() {
           <TopicContainer onClick={handleExpand2}>
             <NumberContainer>2</NumberContainer>
             <TextContainer>
-              <h3>Estabelecendo os objetivos</h3>
+              <h3>Funções mentais avaliadas</h3>
               <DescriptionContainer1 className="topic1" expand2={expand2}>
                 <TopicContainer className="subTopic">
                   <Dot />
-                  <span>A avaliação da demanda indicará qual aspecto avaliativo deverá ser priorizado em cada caso, situando-se o objetivo do psicodiagnóstico a partir dessa reflexão inicial. Segundo Cunha (2000), precursora do psicodiagnóstico em nosso meio, os objetivos podem priorizar: <br/>a) a classificação simples; <br/>b) a descrição; <br/>c) a classificação nosológica; <br/>d) o diagnóstico diferencial; <br/>e) a avaliação compreensiva; <br/>e) o entendimento dinâmico; <br/>f) a prevenção; <br/>g) o prognóstico.</span>
+                  <span>Consciência:<br/><br/>Avaliar se o paciente está com clareza da cons­ciência, lucidez (acordado, em vigília); <br/>Alterações na consciência do self; <br/>Avaliar o sono, se profundo ou ­superficial com ou sem sonhos ou pesadelos.</span>
                 </TopicContainer>
                 <TopicContainer className="subTopic">
                   <Dot />
-                  <span>O ato de elencar apropriadamente os objetivos do psicodiagnóstico nos permite estruturar melhor o processo. Escolhendo de forma mais adequada as técnicas, métodos e instrumentos que melhor nos auxiliarão a satisfazer a demanda.</span>
+                  <span>Atenção: <br/><br/>Função mental de ligação entre o domínio da consciência, percepção e orientação; <br/>Vigilância; <br/>Tenacidade</span>
+                </TopicContainer>
+                <TopicContainer className="subTopic">
+                  <Dot />
+                  <span>Sensopercepção: <br/><br/>A percepção é uma função cognitiva que articula as informações obtidas pelas sensações – junto com a atenção – com a área da consciência. Sensação é a área das sensações visuais, auditivas, olfatórias, gustativas e táteis.</span>
+                </TopicContainer>
+                <TopicContainer className="subTopic">
+                  <Dot />
+                  <span>Orientação: <br/><br/>Autopsíquica & Alopsíquica.</span>
+                </TopicContainer>
+                <TopicContainer className="subTopic">
+                  <Dot />
+                  <span>Memória: <br/><br/>Explícita X Implícita;<br/>Curto prazo X Longo prazo;<br/>Recente X Remota;<br/>Reconhecimento X Recordação.</span>
+                </TopicContainer>
+                <TopicContainer className="subTopic">
+                  <Dot />
+                  <span>Inteligência: <br/><br/>Capacidade de resolução de problemas - Raciocínio;<br/>Adaptação pela integração de novas informações - Aprendizagem.</span>
+                </TopicContainer>
+                <TopicContainer className="subTopic">
+                  <Dot />
+                  <span>Pensamento: <br/><br/>Produção, associação e gerenciamento de ideias.</span>
                 </TopicContainer>
               </DescriptionContainer1>
             </TextContainer>
@@ -101,28 +115,35 @@ function SlideII() {
           <TopicContainer onClick={handleExpand3}>
             <NumberContainer>3</NumberContainer>
             <TextContainer>
-              <h3>Primeiras entrevistas</h3>
+              <h3>Funções mentais (continuação)</h3>
               <DescriptionContainer2 className="topic1" expand3={expand3}>
                 <TopicContainer className="subTopic">
                   <Dot />
-                  <span>Antes ainda do primeiro encontro, alguns elementos requerem a atenção do avaliador pois interferem no processo. A preparação do ambiente físico é de suma importância. Aspectos como controle de temperatura, controle de ruídos, mobília adequada e disponibilidade/qualidade dos materiais interferem nos procedimentos padronizados e no "setting" da avaliação. Outro ponto importante a se atentar é ao contato telefônico para o agendamento do procedimento.</span>
+                  <span>Juízo crítico: <br/><br/>Habilidade de chegar a conclusões e julgamentos baseados na integração de informações sobre um objeto.</span>
                 </TopicContainer>
                 <TopicContainer className="subTopic">
                   <Dot />
-                  <span>A apresentção do profissional é o primeiro passo e merece alguns cuidados. Os assuntos referentes à problemática do indivíduo devem ser sempre abordados dentro do consultório, mas nada impede uma conversa amigável sobre o tempo, trajeto realizado, o dia do paciente ou outros tópicos corriqueiros na recepção ou no caminho ao consultório. Isso pode ser importante tanto para o estabelecimento do rapport como para levantar informações importantes. O nível de contato físico nesse momento é um cuidado a se manter em mente, pois deve respeitar tanto as preferências do avaliador quanto as do avaliado (até então desconhecidas).</span>
+                  <span>Funções executivas: <br/><br/>Conjunto de funções mentais ligadas ao gerenciamento da própria vida;<br/>Planejamento, execução e monitaramento de atividades.</span>
                 </TopicContainer>
                 <TopicContainer className="subTopic">
                   <Dot />
-                  <span>A tarefa principal durante as entrevistar é ouvir. Seguindo o fluxo do discurso do paciente se busca informações específicas que nos permita cumprir alguns objetivos:<br/>
-                    o esclarecimento da demanda;<br/>
-                    a real necessidade da avaliação;<br/>
-                    sua competência para realizá-la;<br/>
-                    e o histórico pessoal e do adoecimento.
-                  </span>
+                  <span>Linguagem: <br/><br/>Capacidade de identificar e compreender elementos verbais e não verbais recebidos.<br/>Assim como de escolher e emitir estes mantendo uma dinâmica de comunicação</span>
                 </TopicContainer>
                 <TopicContainer className="subTopic">
                   <Dot />
-                  <span>Ao longo dos primeiros encontros, se constrói o contrato de trabalho, em que são ­previstos os papéis de cada parte; a questão de sigilo e privacidade; normas de atraso e faltas; o número aproximado de encontros, incluindo-se as primeiras entrevistas; a bateria de testes que será utilizada, se necessário; as entrevistas de devolução; e a forma como serão pagos os honorários (caso se trate de ­consultas particulares). Esse plano é construído nos primeiros encontros, podendo sofrer variações ao longo do processo.</span>
+                  <span>Interações sociais: <br/><br/>Habilidade de adequação ou contexto e aos interlocutores;<br/>Empatia.</span>
+                </TopicContainer>
+                <TopicContainer className="subTopic">
+                  <Dot />
+                  <span>Afeto: <br/><br/>Sua intensidade, adequação e modulação.</span>
+                </TopicContainer>
+                <TopicContainer className="subTopic">
+                  <Dot />
+                  <span>Conação: <br/><br/>É a disposição ­para a ação, a partir do desejo e da intenção, da escolha e da decisão.</span>
+                </TopicContainer>
+                <TopicContainer className="subTopic">
+                  <Dot />
+                  <span>Ação: <br/><br/>Emissão de comportamento constituindo um movimento voluntário, consciente, intencional, organizado, inibido.</span>
                 </TopicContainer>
               </DescriptionContainer2>
             </TextContainer>
